@@ -1,0 +1,9 @@
+{
+  "best_model": "LogReg",
+  "f1_macro": 1.0,
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
+  ]
+}

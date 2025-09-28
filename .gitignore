@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit secrets (if you ever use them)
+.streamlit/secrets.toml
