@@ -23,15 +23,17 @@ def load_data(path: Path):
 
 @st.cache_resource
 def load_model_and_meta():
-    # 🔹 Auto-train fallback if model files are missing
     if not MODEL_PATH.exists() or not META_PATH.exists():
         with st.spinner("⚙️ Training model (first-time setup)..."):
-            subprocess.run(["python", "train_model.py"], check=True)
+            import train_model  # runs train_model.py directly
+
     model = joblib.load(MODEL_PATH)
     meta = {}
     if META_PATH.exists():
         meta = json.loads(META_PATH.read_text())
     return model, meta
+
+
 
 if "active_tab" not in st.session_state:
     st.session_state["active_tab"] = "🏠 Home"
