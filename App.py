@@ -7,6 +7,7 @@ from pathlib import Path
 import joblib
 import json
 import matplotlib.pyplot as plt
+import subprocess
 
 st.set_page_config(page_title="Lung Cancer Risk Analyzer", page_icon="🫁", layout="wide")
 
@@ -22,6 +23,10 @@ def load_data(path: Path):
 
 @st.cache_resource
 def load_model_and_meta():
+    # 🔹 Auto-train fallback if model files are missing
+    if not MODEL_PATH.exists() or not META_PATH.exists():
+        with st.spinner("⚙️ Training model (first-time setup)..."):
+            subprocess.run(["python", "train_model.py"], check=True)
     model = joblib.load(MODEL_PATH)
     meta = {}
     if META_PATH.exists():
@@ -234,5 +239,4 @@ st.markdown(
     **Arun Chinthalapally**
     """
 )
-
 st.caption("Built with ❤️ using Python & Streamlit")
