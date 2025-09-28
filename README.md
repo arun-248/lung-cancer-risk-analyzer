@@ -9,7 +9,7 @@
 
 **🎯 An intelligent ML-powered application for lung cancer risk assessment**
 
-[🚀 Live Demo](https://your-app-link.streamlit.app) • [📊 Dataset](cancer%20patient%20data%20sets.csv) • [📋 Documentation](#-documentation) • [🔧 Installation](#️-quick-start)
+
 
 </div>
 
@@ -30,73 +30,33 @@
 
 ## 🚀 Key Features
 
-<table>
-<tr>
-<td width="50%">
+**🔮 Intelligent Prediction Engine**
+* Multi-model ensemble (Logistic Regression + Random Forest)
+* Real-time risk level classification (Low/Medium/High)
+* Feature importance analysis
+* Confidence scoring for predictions
 
-### 🔮 **Intelligent Prediction Engine**
-- Multi-model ensemble (Logistic Regression + Random Forest)
-- Real-time risk level classification (Low/Medium/High)
-- Feature importance analysis
-- Confidence scoring for predictions
+**📊 Interactive Dashboard**
+* Clean, intuitive Streamlit interface
+* Dynamic data visualizations
+* Model performance metrics
+* Comprehensive case study analysis
 
-</td>
-<td width="50%">
+**🧠 Advanced ML Pipeline**
+* Automated feature engineering
+* Hyperparameter optimization with GridSearchCV
+* Cross-validation and model selection
+* Robust evaluation metrics (F1-score, AUC-ROC)
 
-### 📊 **Interactive Dashboard**
-- Clean, intuitive Streamlit interface
-- Dynamic data visualizations
-- Model performance metrics
-- Comprehensive case study analysis
-
-</td>
-</tr>
-<tr>
-<td>
-
-### 🧠 **Advanced ML Pipeline**
-- Automated feature engineering
-- Hyperparameter optimization with GridSearchCV
-- Cross-validation and model selection
-- Robust evaluation metrics (F1-score, AUC-ROC)
-
-</td>
-<td>
-
-### 🏥 **Healthcare-Focused Design**
-- Medically relevant input parameters
-- Clear risk communication
-- Educational insights about lung cancer
-- Actionable recommendations
-
-</td>
-</tr>
-</table>
+**🏥 Healthcare-Focused Design**
+* Medically relevant input parameters
+* Clear risk communication
+* Educational insights about lung cancer
+* Actionable recommendations
 
 ---
 
-## 🏗️ Technical Architecture
 
-```mermaid
-graph LR
-    A[Raw Data] --> B[Data Preprocessing]
-    B --> C[Feature Engineering]
-    C --> D[Model Training]
-    D --> E[Model Evaluation]
-    E --> F[Model Selection]
-    F --> G[Streamlit App]
-    G --> H[User Interface]
-    H --> I[Risk Prediction]
-```
-
-### 🔧 **Tech Stack**
-- **Frontend**: Streamlit, Plotly, Matplotlib
-- **Backend**: Python, scikit-learn, Pandas, NumPy
-- **ML Models**: Logistic Regression, Random Forest
-- **Deployment**: Streamlit Cloud
-- **Version Control**: Git, GitHub
-
----
 
 ## 📂 Repository Structure
 
@@ -138,53 +98,6 @@ lung-cancer-risk-analyzer/
 ![Analytics Tab](https://via.placeholder.com/800x400/F7931E/FFFFFF?text=📊+Analytics+%26+Insights+%7C+Model+Performance)
 
 </div>
-
----
-
-## ⚡ Quick Start
-
-### 🔧 **Prerequisites**
-- Python 3.9 or higher
-- pip package manager
-- Git (for cloning)
-
-### 🚀 **Installation**
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/arun-248/lung-cancer-risk-analyzer.git
-   cd lung-cancer-risk-analyzer
-   ```
-
-2. **Set up virtual environment**
-   ```bash
-   # Windows
-   python -m venv .venv
-   .\.venv\Scripts\activate
-   
-   # macOS/Linux
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Train the model (optional)**
-   ```bash
-   python train_model.py
-   ```
-
-5. **Launch the application**
-   ```bash
-   streamlit run App.py
-   ```
-
-6. **Access the app**
-   - Open your browser and navigate to `http://localhost:8501`
-   - Start making predictions! 🎉
 
 ---
 
@@ -263,20 +176,33 @@ Top factors contributing to lung cancer risk prediction:
 </details>
 
 ---
-## 👨‍💻 About the Developer
 
-<div align="center">
+## 🤝 Contributing
 
-**Arun Chinthalapally**  
-*Machine Learning Engineer & Full-Stack Developer*
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arun-248.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arun-248)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arun-chinthalapally)
+### 🐛 **Reporting Issues**
+- Use GitHub Issues for bug reports
+- Include detailed reproduction steps
+- Provide system information and logs
 
-*"Building intelligent solutions that make a difference in people's lives"*
+### 💡 **Suggesting Enhancements**
+- Open a discussion in GitHub Discussions
+- Describe the feature and its benefits
+- Consider implementation complexity
 
-</div>
+---
+
+## 📚 Documentation
+
+- **[API Documentation](docs/api.md)**: Detailed function references
+- **[Deployment Guide](docs/deployment.md)**: Step-by-step deployment instructions
+- **[Model Training](docs/training.md)**: How to retrain with new data
+- **[Contributing Guide](CONTRIBUTING.md)**: Guidelines for contributors
+
+---
+
+
 
 ---
 
@@ -300,21 +226,51 @@ Open source and ready for collaboration
 
 ---
 
-## 📈 Project Stats
+## ⚡ Quick Start
 
-<div align="center">
+### 🔧 **Prerequisites**
+- Python 3.9 or higher
+- pip package manager
+- Git (for cloning)
 
-![GitHub stars](https://img.shields.io/github/stars/arun-248/lung-cancer-risk-analyzer?style=social)
-![GitHub forks](https://img.shields.io/github/forks/arun-248/lung-cancer-risk-analyzer?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/arun-248/lung-cancer-risk-analyzer?style=social)
+### 🚀 **Installation**
 
-**⭐ If this project helped you or inspired your work, consider giving it a star!**  
-*It helps others discover this project and motivates continued development.*
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/arun-248/lung-cancer-risk-analyzer.git
+   cd lung-cancer-risk-analyzer
+   ```
 
-</div>
+2. **Set up virtual environment**
+   ```bash
+   # Windows
+   python -m venv .venv
+   .\.venv\Scripts\activate
+   
+   # macOS/Linux
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
 
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Train the model (optional)**
+   ```bash
+   python train_model.py
+   ```
+
+5. **Launch the application**
+   ```bash
+   streamlit run App.py
+   ```
+
+6. **Access the app**
+   - Open your browser and navigate to `http://localhost:8501`
+   - Start making predictions! 🎉
 ---
-
 <div align="center">
 
 **🔬 Built with passion for healthcare innovation | 🤖 Powered by Machine Learning**
