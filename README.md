@@ -85,17 +85,17 @@ lung-cancer-risk-analyzer/
 ### 🏠 **Home Dashboard**
 *Clean interface with project overview and key metrics*
 
-![Home Tab](https://via.placeholder.com/800x400/FF4B4B/FFFFFF?text=🏠+Home+Dashboard+%7C+Project+Overview+%26+Key+Insights)
+![Home Tab](https://github.com/arun-248/lung-cancer-risk-analyzer/blob/main/Home_dashboard.png)
 
 ### 🔮 **Prediction Interface**
 *Interactive form for risk assessment with real-time results*
 
-![Prediction Tab](https://via.placeholder.com/800x400/3776AB/FFFFFF?text=🔮+Prediction+Interface+%7C+Risk+Assessment+Tool)
+![Prediction Tab](https://github.com/arun-248/lung-cancer-risk-analyzer/blob/main/Prediction_Interface.png)
 
 ### 📊 **Analytics & Insights**
 *Comprehensive model performance and case study analysis*
 
-![Analytics Tab](https://via.placeholder.com/800x400/F7931E/FFFFFF?text=📊+Analytics+%26+Insights+%7C+Model+Performance)
+![Analytics Tab](https://github.com/arun-248/lung-cancer-risk-analyzer/blob/main/Analytics_Insights.png)
 
 </div>
 
