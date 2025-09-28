@@ -177,6 +177,15 @@ Top factors contributing to lung cancer risk prediction:
 
 ---
 
+
+## 🙏 Acknowledgments
+
+- **Medical Community**: For inspiring healthcare-focused AI solutions
+- **Open Source Contributors**: For the amazing tools and libraries
+- **Streamlit Team**: For the fantastic deployment platform
+- **scikit-learn**: For robust machine learning algorithms
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
@@ -190,39 +199,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Open a discussion in GitHub Discussions
 - Describe the feature and its benefits
 - Consider implementation complexity
-
----
-
-## 📚 Documentation
-
-- **[API Documentation](docs/api.md)**: Detailed function references
-- **[Deployment Guide](docs/deployment.md)**: Step-by-step deployment instructions
-- **[Model Training](docs/training.md)**: How to retrain with new data
-- **[Contributing Guide](CONTRIBUTING.md)**: Guidelines for contributors
-
----
-
-
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License - Feel free to use, modify, and distribute
-Open source and ready for collaboration
-```
-
----
-
-## 🙏 Acknowledgments
-
-- **Medical Community**: For inspiring healthcare-focused AI solutions
-- **Open Source Contributors**: For the amazing tools and libraries
-- **Streamlit Team**: For the fantastic deployment platform
-- **scikit-learn**: For robust machine learning algorithms
 
 ---
 
@@ -272,6 +248,17 @@ Open source and ready for collaboration
    - Start making predictions! 🎉
 ---
 <div align="center">
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License - Feel free to use, modify, and distribute
+Open source and ready for collaboration
+```
+
 
 **🔬 Built with passion for healthcare innovation | 🤖 Powered by Machine Learning**
 
